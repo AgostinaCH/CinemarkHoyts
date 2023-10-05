@@ -1,0 +1,192 @@
+.navbar{
+  background-color: #500000;
+}
+.navbar-nav{
+  color: #d6d6d6;
+}
+li .nav-link{
+  color: #d6d6d6;
+}
+.navbar-nav :hover{
+  color: #AC0000;
+}
+.navbar-nav :active{
+  color: #ff4e2f;
+}
+#first-carousel{
+  padding-top: 20px;
+  padding-bottom: 45px;
+  padding-right: 4%; 
+  padding-left: 4%;
+  background-color: #500000;
+}
+.cinescontainer{
+  background-color: #AC0000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.form-select option {
+  background-color: #500000;
+  color: #eeeeee;
+}
+.d-flex{
+  width: 30%;
+}
+.buscador{
+  background-color: #efefef;
+  border: none;
+  border-radius: 18px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2px;
+}
+.form-control{
+  border: none;
+  background: none;
+  width: 320px;
+  padding-left: 10px;
+}
+.form-control :{
+  border: none;
+  border-style: none;
+}
+.btn-danger{
+  border-radius: 16px;
+  width: 32px;
+  padding: 0%;
+  background-color: #AC0000;
+  border-color: #AC0000;
+}
+
+.fa-magnifying-glass{
+  scale: 120%;
+}
+
+.cartelera-container{
+  padding-top: 3%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.fs-3{
+  margin-top: 20px;
+  padding-left: 4%;
+}
+.cartelera{
+  height: 360px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.inner-cartelera{
+  display: flex;
+  height: 360px;
+  align-items: center;
+  padding-inline-start: 6.5%;
+}
+.carousel-movies{
+  width: 220px;
+  outline: none; 
+  margin-right: 26px;
+  
+}
+.carousel-movies :hover{
+  scale: 105%;
+  border-style: outset;
+  border-color: #ff4e2f;
+  border-width: 2px;
+  transition: .3s;
+  cursor: pointer;
+  box-shadow: 0 0 10px #AC0000;
+  border-radius: 15px;
+}
+
+footer{
+  background-color: rgb(20, 20, 20);
+  display: flex;
+  flex-direction: row;
+  padding: 3%;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+footer a{
+  text-decoration: none;
+  color: #d6d6d6;
+}
+.media{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 290px;
+}
+.social-media{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 26px;
+}
+.logo-footer{
+  width: 260px;
+  margin-top: 20px;
+}
+.brand{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.red{
+  background-color: #eeeeee;
+  border-radius: 20px;
+}
+
+.footer-menu{
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+}
+.footer-menu-menu{
+  display: flex;
+  flex-direction: column;
+}
+.menu-1{
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #eeeeee;
+}
+.data-fiscal-img{
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+.data-fiscal-img img{
+  padding-right: 10px;
+}
+
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}

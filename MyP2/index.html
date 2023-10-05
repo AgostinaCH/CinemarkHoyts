@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Cinemark Hoyts</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a href="index.html" style="width: 20%;">
+                    <img src="Imagenes/Cinemark Hoyts logo.png" class="logo" style="width: 100%; padding-left: 10px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav nav-underline">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html" style="color: #ff4e2f;">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="peliculas.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Películas
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="peliculas.html">ANTICIPADAS</a></li>
+                                <li><a class="dropdown-item" href="peliculas.html">ESTRENOS</a></li>
+                                <li><a class="dropdown-item" href="peliculas.html">PELÍCULAS 2D</a></li>
+                                <li><a class="dropdown-item" href="peliculas.html">PELÍCULAS 3D</a></li>
+                                <li><a class="dropdown-item" href="peliculas.html">PELÍCULAS 4D</a></li>
+                                <li><a class="dropdown-item" href="peliculas.html">PELÍCULAS XD</a></li>
+                                <li><a class="dropdown-item" href="peliculas.html">PELÍCULAS DBOX</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="candy.html">Candy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cinefan.html">Cine Fan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quienessomos.html">Quienes Somos</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="user.html" class="user" style="width: 20%; text-align: end; padding-right: 10px ;">
+                    <i class="fa-solid fa-circle-user fa-2xl" style="color: #d9d9d9;"></i>
+                </a>
+            </div>
+        </nav>
+        
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            </div>
+            <div class="carousel-inner" id="first-carousel">
+                <div class="carousel-item active">
+                    <img src="Imagenes/12552631019201753283.jpeg" class="d-block w-100" alt="..." style="border-radius: 20px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/14519204671039469643.jpeg" class="d-block w-100" alt="..." style="border-radius: 20px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/751.png" class="d-block w-100" alt="..." style="border-radius: 20px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/750.png" class="d-block w-100" alt="..." style="border-radius: 20px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/749.png" class="d-block w-100" alt="..." style="border-radius: 20px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/743 (1).png" class="d-block w-100" alt="..." style="border-radius: 20px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/735.png" class="d-block w-100" alt="..." style="border-radius: 20px;">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+        <div class="cinescontainer">
+            <select class="form-select" aria-label="select example" style="width: 30%; background-color: transparent; border: none; color: #eeeeee;">
+                <option value="null">Selecciona un cine</option>
+                <option value="1">CINEMARK SANTA FE</option>
+                <option value="2">HOYTS ROSARIO</option>
+                <option value="3">CINEMARK TORTUGAS</option>
+                <option value="4">HOYTS PATIO OLMOS</option>
+                <option value="5">CINEMARK MALVINAS ARGENTINAS</option>
+                <option value="6">CINEMARK SOLEIL</option>
+                <option value="7">HOYTS NUEVOCENTRO</option>
+                <option value="8">HOYTS UNICENTER</option>
+                <option value="9">HOYTS MORENO</option>
+                <option value="10">HOYTS DOT</option>
+                <option value="11">HOYTS MORON</option>
+                <option value="12">CINEMARK PALERMO</option>
+                <option value="13">HOYTS ABASTO</option>
+                <option value="14">CINEMARK CABALLITO</option>
+                <option value="15">CINEMARK SAN JUSTO</option>
+                <option value="16">CINEMARK PUERTO MADERO</option>
+                <option value="17">CINEMARK AVELLANEDA</option>
+                <option value="18">HOYTS TEMPERLY</option>
+                <option value="19">HOYTS QUILMES</option>
+                <option value="20">CINEMARK MENDOZA</option>
+                <option value="21">HCINEMARK SALTA</option>
+                <option value="22">HOYTS SALTA</option>
+                <option value="23">CINEMARK NEUQUEN</option>
+            </select>
+            <form class="d-flex" role="search">
+                <div class="buscador">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-danger" type="submit">
+                        <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                    </button>
+                </div> 
+            </form>
+        </div>
+
+        <div class="cartelera-container">
+            <p class="fs-3 estrenos">ESTRENOS</p>
+            <div class="carousel slide cartelera">
+                <div class="carousel-inner inner-cartelera">
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/images (10).jpeg" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/resistencia.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/saw x.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/una flor en el barro.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/los indestructibles.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <!--<div class="carousel-item carousel-movies">
+                        <img src="Imagenes/vampiro.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>-->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div> 
+            <p class="fs-3 anticipadas">ANTICIPADAS</p>
+            <div class="carousel slide cartelera">
+                <div class="carousel-inner inner-cartelera">
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/taylor.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <!--<div class="carousel-item active carousel-movies" >
+                        <img src="Imagenes/blue jean.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/extraña forma de vivir.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/los indestructibles.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/no me rompan.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item carousel-movies">
+                        <img src="Imagenes/vampiro.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>-->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div> 
+            <p class="fs-3 2d">PELÍCULAS 2D</p>
+            <div class="carousel slide cartelera">
+                <div class="carousel-inner inner-cartelera">
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/asfixiados.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/asteroid.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/barbie.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/caceria venecia.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/no me rompan.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item carousel-movies">
+                        <img src="Imagenes/sonido libertad.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item carousel-movies">
+                        <img src="Imagenes/sonido libertad.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div> 
+            <p class="fs-3 3d">PELÍCULAS 3D</p>
+            <div class="carousel slide cartelera">
+                <div class="carousel-inner inner-cartelera">
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/avatar.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <!--<div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/blue jean.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/extraña forma de vivir.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/los indestructibles.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/no me rompan.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item carousel-movies">
+                        <img src="Imagenes/vampiro.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>-->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div> 
+            <p class="fs-3 4d">PELÍCULAS 4D</p>
+            <div class="carousel slide cartelera">
+                <div class="carousel-inner inner-cartelera">
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/la monja.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/los indestructibles.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/resistencia.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/saw x.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <!--<div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/no me rompan.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item carousel-movies">
+                        <img src="Imagenes/vampiro.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>-->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div> 
+            <p class="fs-3 xd">PELÍCULAS XD</p>
+            <div class="carousel slide cartelera">
+                <div class="carousel-inner inner-cartelera">
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/el exorcista.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/resistencia.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/saw x.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/taylor.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <!--<div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/no me rompan.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item carousel-movies">
+                        <img src="Imagenes/vampiro.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>-->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div> 
+            <p class="fs-3 dbox">PELÍCULAS DBOX</p>
+            <div class="carousel slide cartelera">
+                <div class="carousel-inner inner-cartelera">
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/el exorcista.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/la monja.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/resistencia.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/saw x.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <!--<div class="carousel-item active carousel-movies">
+                        <img src="Imagenes/no me rompan.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>
+                    <div class="carousel-item carousel-movies">
+                        <img src="Imagenes/vampiro.png" class="pelicula" style="width: 100%; border-radius: 15px;">
+                    </div>-->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div> 
+        </div>
+        
+        <footer>
+            <div class="media">
+                <img src="Imagenes/Cinemark Hoyts logo.png" class="logo-footer">
+                <div class="social-media">
+                    <div class="brand">
+                        <i class="fa-brands fa-facebook fa-2xl" style="color: #eeeeee; scale: 125%;"><a href="https://es-la.facebook.com/CinemarkHoyts/"></a></i>
+                    </div> 
+                    <div class="brand red">
+                        <i class="fa-brands fa-instagram fa-2xl" style="color: #202020;"><a href="https://www.instagram.com/cinemarkhoyts/"></a></i>
+                    </div>
+                    <div class="brand red">
+                        <i class="fa-brands fa-tiktok fa-2xl" style="color: #202020;"><a href="https://www.tiktok.com/@cinemarkhoytsarg"></a></i>
+                    </div>
+                    <div class="brand red">
+                        <i class="fa-brands fa-x-twitter fa-2xl" style="color: #202020;"><a href="https://twitter.com/CinemarkHoyts/"></a></i>
+                    </div>
+                    <div class="brand red">
+                        <i class="fa-brands fa-linkedin-in fa-2xl" style="color: #202020;"><a href="https://ar.linkedin.com/company/cinemark-hoyts-argentina"></a></i>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-menu">
+                <a href="index.html" class="menu-1">HOME</a>
+                <a href="peliculas.html" class="menu-1">PELÍCULAS</a>
+                <div class="footer-menu-menu">
+                    <a href="">ESTRENOS</a>
+                    <a href="">VENTAS ANTICIPADAS</a>
+                    <a href="">PELÍCULAS 2D</a>
+                    <a href="">PELÍCULAS 3D</a>
+                    <a href="">PELÍCULAS 4D</a>
+                    <a href="">PELÍCULAS XD</a>
+                    <a href="">PELÍCULAS DBOX</a>
+                </div>
+            </div>
+            <div class="footer-menu">
+                <a href="candy.html" class="menu-1">CANDY</a>
+                <a href="cinefan.html" class="menu-1">CINE FAN</a>
+                <div class="footer-menu-menu">
+                    <a href="">CONTACTO CINE FAN</a>
+                    <a href="">BASES PROGRAMA DE BENEFICIOS CINE FAN</a>
+                </div>
+            </div>
+            <div class="footer-menu">
+                <a href="contacto.html" class="menu-1">CONTACTO</a>
+                <a href="quienessomos.html" class="menu-1">QUIENES SOMOS</a>
+                <div class="data-fiscal-img">
+                    <img src="Imagenes/data-fiscal.png">
+                    <img src="Imagenes/data-fiscal (1).png">
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>
